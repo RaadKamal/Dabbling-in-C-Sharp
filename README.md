@@ -1,1 +1,1 @@
-# Csharp-Bugs-Bunny-Pattern
+# GAng of Four
