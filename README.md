@@ -1,1 +1,1 @@
-# GAng of Four
+# Gang of Four
