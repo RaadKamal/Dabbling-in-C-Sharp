@@ -22,7 +22,7 @@ Behavioural - used to define how objects interact
 - Prototype
 - Singleton
 
-### Structural Design Pattern:
+## Structural Design Pattern:
 
 - Adapter
 - Bridge
@@ -32,7 +32,7 @@ Behavioural - used to define how objects interact
 - Flyweight
 - Proxy
 
-### Behavioural design pattern:
+## Behavioural design pattern:
 
 - Chain of Responsibility
 - Command
