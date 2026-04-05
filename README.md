@@ -8,13 +8,13 @@ Behavioural - used to define how objects interact
 
 ## 2 main ideas:
 
-### Creational Design Pattern:
+## Creational Design Pattern:
 
 Encapsulation
   
 Hiding how instances of these classes are created and combined
 
-## Currently Enduring:
+### Currently Enduring:
 
 - Abstract Factory
 - Builder
