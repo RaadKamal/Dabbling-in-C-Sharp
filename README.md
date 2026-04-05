@@ -6,13 +6,13 @@ Structural - used for relationships between objects
  
 Behavioural - used to define how objects interact
 
-## 2 main ideas:
+
 
 ## Creational Design Pattern:
 
-Encapsulation
+1. Encapsulation
   
-Hiding how instances of these classes are created and combined
+2. Hiding how instances of these classes are created and combined
 
 ### Currently Enduring:
 
