@@ -1,4 +1,4 @@
-using system;
+using System;
 
 namespace Builder{
 
@@ -8,8 +8,8 @@ namespace Builder{
         void SetMonitor();
         void SetMouse();
         void SetKeyboard(); 
-        voud SetTower();
-        voud SetPrinter();
+        void SetTower();
+        void SetPrinter();
 
         Computer GetComputer();
 
@@ -116,14 +116,14 @@ namespace Builder{
             return computerBuilder.GetComputer();
         }
 
-        public COmputer GetComputer()
+        public Computer GetComputer()
         {
             return computerBuilder.GetComputer();
         }
     }
     class Example
     {
-        publiv static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ComputerCreator creatorA = new ComputerCreator(new ComputerABuilder());
             Computer computerA = creatorA.CreateComputer();
