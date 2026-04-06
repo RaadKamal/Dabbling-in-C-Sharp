@@ -19,7 +19,7 @@ Behavioural - used to define how objects interact
 - Abstract Factory ✔️
 - Builder ✔️
 - Factory Method ✔️
-- Prototype
+- Prototype ✔️
 - Singleton
 
 ## Structural Design Pattern:
