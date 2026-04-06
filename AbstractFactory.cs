@@ -46,7 +46,7 @@ namespace  AbstractFactory
     {
         public string GetModelDetails()
         {
-            return "Model: Samsung Galaxy - RAM: 2GB - Camera: 13MO"; //Implementin IAndroid interface
+            return "Model: Samsung Galaxy - RAM: 2GB - Camera: 13MP"; //Implementin IAndroid interface
         }
     }
 
