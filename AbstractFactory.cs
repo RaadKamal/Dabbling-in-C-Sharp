@@ -7,7 +7,7 @@ namespace  ConsoleApp1
     //THE ABSTRACT FACTORY
     interface IMobile  //Abstract Factory interface
     {
-        IAndroud GetAndroidPhone();
+        IAndroid GetAndroidPhone();
         IiOS GetIOSPhone();
 
     }
@@ -24,9 +24,9 @@ namespace  ConsoleApp1
             {
                 return new SamsungGuru(); //Interface of a type of product object
             }
-            }
-
         }
+
+        
 
     //THE ABSTRACT PRODUCTS    
 
@@ -60,7 +60,7 @@ namespace  ConsoleApp1
 
     class MobileClient
     {
-        IAndroud androidPhone;
+        IAndroid androidPhone;
         IiOS iosPhone;
 
         public MobileClient(IMobile mobileFactory)
@@ -84,13 +84,15 @@ namespace  ConsoleApp1
 
     class Example
     {
-    public static void Main(string[] args)
-    {
-        IMobile samsungMobilephone = new Samsung(); //Creating a factory for Samsung phones
-        MobileClient samsungclient = new MobileClient(samsungMobilephone); //Creating a client and passing the factory to it
+        public static void Main(string[] args)
+        {
+            IMobile samsungMobilephone = new Samsung(); //Creating a factory for Samsung phones
+            MobileClient samsungclient = new MobileClient(samsungMobilephone); //Creating a client and passing the factory to it
 
-        Debug.WriteLine(client.GetAndroidPhoneDetails()); //Getting details of the Android phone
-        Debug.WriteLine(client.GetIOSPhoneDetails()); //Getting details of the iOS phone
+            Debug.WriteLine(client.GetAndroidPhoneDetails()); //Getting details of the Android phone
+            Debug.WriteLine(client.GetIOSPhoneDetails()); //Getting details of the iOS phone
+        }
     }
-  }
+
+}
 
