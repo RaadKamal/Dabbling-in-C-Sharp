@@ -1,0 +1,15 @@
+F:\DesignPatterns\Dabbling-in-C-Sharp\bin\Debug\net10.0\Dabbling-in-C-Sharp.exe
+F:\DesignPatterns\Dabbling-in-C-Sharp\bin\Debug\net10.0\Dabbling-in-C-Sharp.deps.json
+F:\DesignPatterns\Dabbling-in-C-Sharp\bin\Debug\net10.0\Dabbling-in-C-Sharp.runtimeconfig.json
+F:\DesignPatterns\Dabbling-in-C-Sharp\bin\Debug\net10.0\Dabbling-in-C-Sharp.dll
+F:\DesignPatterns\Dabbling-in-C-Sharp\bin\Debug\net10.0\Dabbling-in-C-Sharp.pdb
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.AssemblyInfoInputs.cache
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.AssemblyInfo.cs
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.csproj.CoreCompileInputs.cache
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.sourcelink.json
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.dll
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\refint\Dabbling-in-C-Sharp.dll
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.pdb
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\Dabbling-in-C-Sharp.genruntimeconfig.cache
+F:\DesignPatterns\Dabbling-in-C-Sharp\obj\Debug\net10.0\ref\Dabbling-in-C-Sharp.dll

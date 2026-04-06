@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 
 
-namespace  ConsoleApp1
+namespace  AbstractFactory
 {
     //THE ABSTRACT FACTORY
     interface IMobile  //Abstract Factory interface
@@ -35,7 +35,7 @@ namespace  ConsoleApp1
         string GetModelDetails(); 
     }
 
-    interface Iios
+    interface IiOS //Abstract Product interface
     {
         string GetModelDetails();
     }
@@ -50,7 +50,7 @@ namespace  ConsoleApp1
         }
     }
 
-    class SamsungGuru: Iios
+    class SamsungGuru: IiOS
     {
         public string GetModelDetails()
         {
@@ -89,8 +89,8 @@ namespace  ConsoleApp1
             IMobile samsungMobilephone = new Samsung(); //Creating a factory for Samsung phones
             MobileClient samsungclient = new MobileClient(samsungMobilephone); //Creating a client and passing the factory to it
 
-            Debug.WriteLine(client.GetAndroidPhoneDetails()); //Getting details of the Android phone
-            Debug.WriteLine(client.GetIOSPhoneDetails()); //Getting details of the iOS phone
+            Console.WriteLine(samsungclient.GetAndroidPhoneDetails()); //Getting details of the Android phone
+            Console.WriteLine(samsungclient.GetIOSPhoneDetails()); //Getting details of the iOS phone
         }
     }
 
