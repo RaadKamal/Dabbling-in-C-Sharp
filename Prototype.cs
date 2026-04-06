@@ -12,6 +12,7 @@ namespace Pototype
         return this.MemberwiseClone();
 
     }
+    }
     
     class Example
     {
