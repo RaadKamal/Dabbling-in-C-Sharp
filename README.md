@@ -16,9 +16,9 @@ Behavioural - used to define how objects interact
 
 ### Now Enduring:
 
-- Abstract Factory
-- Builder
-- Factory Method
+- Abstract Factory ✔️
+- Builder ✔️
+- Factory Method ✔️
 - Prototype
 - Singleton
 
