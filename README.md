@@ -14,7 +14,7 @@ Behavioural - used to define how objects interact
   
 2. Hiding how instances of these classes are created and combined
 
-### Currently Enduring:
+### Now Enduring:
 
 - Abstract Factory
 - Builder
