@@ -16,10 +16,10 @@ Behavioural - used to define how objects interact
 
 ### Now Enduring:
 
-- Abstract Factory ✔️
-- Builder ✔️
-- Factory Method ✔️
-- Prototype ✔️
+- Abstract Factory :white_check_mark:
+- Builder :white_check_mark:
+- Factory Method :white_check_mark:
+- Prototype :white_check_mark:
 - Singleton
 
 ## Structural Design Pattern:
