@@ -10,19 +10,24 @@ Behavioural - used to define how objects interact
 
 ## Creational Design Pattern:
 
-1. Encapsulation
+1. Encapsulation.
   
-2. Hiding how instances of these classes are created and combined
+2. Hiding how instances of these classes are created and combined.
 
-### Now Enduring:
 
 - Abstract Factory :white_check_mark:
 - Builder :white_check_mark:
 - Factory Method :white_check_mark:
 - Prototype :white_check_mark:
-- Singleton
+- Singleton ::white_check_mark:
 
 ## Structural Design Pattern:
+
+1. Inheritance is a primary component of this pattern
+
+2. Allow us to compose objects in different ways to create new functionality.
+
+### Now Enduring:
 
 - Adapter
 - Bridge
