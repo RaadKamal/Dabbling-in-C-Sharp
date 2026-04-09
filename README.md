@@ -19,7 +19,7 @@ Behavioural - used to define how objects interact
 - Builder :white_check_mark:
 - Factory Method :white_check_mark:
 - Prototype :white_check_mark:
-- Singleton ::white_check_mark:
+- Singleton :white_check_mark:
 
 ## Structural Design Pattern:
 
