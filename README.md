@@ -29,7 +29,7 @@ Behavioural - used to define how objects interact
 
 ### Now Enduring:
 
-- Adapter
+- Adapter :white_check_mark:
 - Bridge
 - Composite
 - Decorator
