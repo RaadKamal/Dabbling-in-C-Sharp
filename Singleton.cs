@@ -1,8 +1,7 @@
-using System
+using System; // Fixed: Added semicolon
 
 namespace Singleton
 {
-
    class Singleton
    {
     private static Singleton instance;
@@ -13,7 +12,7 @@ namespace Singleton
     
     public static Singleton Instance
     {
-        
+        get // Fixed: Added 'get' keyword
         {
             if (instance == null)
             {
@@ -22,15 +21,10 @@ namespace Singleton
             return instance;
         }
     }
-
-
    } 
+
    class Example
    {
-
-        
-
-
+       // You can put your test code in here later
    }
-
 }

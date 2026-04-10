@@ -37,8 +37,9 @@ namespace Adapter
         {
             Adaptee adaptee = new Adaptee();
             Itarget target = new Adapter(adaptee);
-            System.Diagonistic.Debug.WriteLine(target.Request());
+            
+            // Replaced Debug.WriteLine with Console.WriteLine to see it in the terminal
+            Console.WriteLine(target.Request()); 
         }
-
     }
 }

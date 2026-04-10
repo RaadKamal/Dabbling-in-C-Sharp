@@ -1,32 +1,28 @@
 using System;
-using System.Diagnostics;
+// using System.Diagnostics; // (You can remove this since you are using Console.WriteLine now)
 
-
-namespace  AbstractFactory
+namespace AbstractFactoryPattern // Changed to avoid any system naming conflicts
 {
     //THE ABSTRACT FACTORY
     interface IMobile  //Abstract Factory interface
     {
         IAndroid GetAndroidPhone();
         IiOS GetIOSPhone();
-
     }
     
     //THE CONCRETE FACTORY
     class Samsung : IMobile //Implementing the IMobile interface
+    {
+        public IAndroid GetAndroidPhone()
         {
-            public IAndroid GetAndroidPhone()
-            {
-                return new SamsungGalaxy(); //Interface of a type of product object
-            }
-
-            public IiOS GetIOSPhone()
-            {
-                return new SamsungGuru(); //Interface of a type of product object
-            }
+            return new SamsungGalaxy(); //Interface of a type of product object
         }
 
-        
+        public IiOS GetIOSPhone()
+        {
+            return new SamsungGuru(); //Interface of a type of product object
+        }
+    }
 
     //THE ABSTRACT PRODUCTS    
 
@@ -46,7 +42,7 @@ namespace  AbstractFactory
     {
         public string GetModelDetails()
         {
-            return "Model: Samsung Galaxy - RAM: 2GB - Camera: 13MP"; //Implementin IAndroid interface
+            return "Model: Samsung Galaxy - RAM: 2GB - Camera: 13MP"; //Implementing IAndroid interface
         }
     }
 
@@ -78,11 +74,10 @@ namespace  AbstractFactory
         {
             return iosPhone.GetModelDetails(); //Getting details of the iOS phone
         }
-
-
     }
 
-    class Example
+    // Renamed from 'Example' to 'AbstractFactoryExample'
+    class AbstractFactoryExample 
     {
         public static void Main(string[] args)
         {
@@ -93,6 +88,4 @@ namespace  AbstractFactory
             Console.WriteLine(samsungclient.GetIOSPhoneDetails()); //Getting details of the iOS phone
         }
     }
-
 }
-
