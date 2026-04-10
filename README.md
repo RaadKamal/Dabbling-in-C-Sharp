@@ -1,5 +1,8 @@
 # Gang of Four
 
+```dotnet run -p:StartupObject=Filename.MainMethodEncapsulatedClass```
+
+
 Creational - used to create objects
  
 Structural - used for relationships between objects
