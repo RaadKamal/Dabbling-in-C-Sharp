@@ -1,7 +1,7 @@
 # Gang of Four
 
 ### How to run:
-```dotnet run -p:StartupObject=Filename.MainMethodEncapsulatedClass```
+```dotnet run -p:StartupObject=Filename.MainMethodEncapsulatedClassName```
 
 
 Creational - used to create objects
