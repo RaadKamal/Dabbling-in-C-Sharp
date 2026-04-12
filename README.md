@@ -8,9 +8,9 @@ dotnet run -p:StartupObject=Filename.MainMethodEncapsulatedClassName
 
 Creational - used to create objects
  
-&ensp;Structural - used for relationships between objects
+&ensp;&emsp;&emsp; Structural - used for relationships between objects
  
-&emsp;Behavioural - used to define how objects interact
+&emsp;&emsp;&emsp;&emsp; Behavioural - used to define how objects interact
 
 
 
