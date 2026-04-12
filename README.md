@@ -10,7 +10,7 @@ Creational - used to create objects
  
 &ensp;&emsp;&emsp; Structural - used for relationships between objects
  
-&emsp;&emsp;&emsp;&emsp; Behavioural - used to define how objects interact
+&emsp;&emsp;&emsp;&emsp;&emsp; Behavioural - used to define how objects interact
 
 
 
