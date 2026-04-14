@@ -33,7 +33,7 @@ Creational - used to create objects
 
 2. Allow us to compose objects in different ways to create new functionality.
 
-### Now Enduring: (Paused for refining + finializing)
+### Now Enduring: (Paused for refining + finializing in understanding)
 
 - Adapter :white_check_mark:
 - Bridge :white_check_mark:
