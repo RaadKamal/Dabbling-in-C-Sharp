@@ -17,24 +17,22 @@ namespace Composite{
 
     class File: Component
     {
-        private string value= string.Empty;
+        private string value = string.Empty;
 
-       
+        public File(string val)
+        {
+            value = val;
+        }
 
-    class File(string val)
-    {
-        value = val;
-    }
+        public override void AddChild(Component c)
+        {
 
+        }
 
-    public override void AddChild(Component c)
-    {
-
-    }
-
-    public override void Traverse()
-    {
-        Console.WriteLine("File: " +value);
+        public override void Traverse()
+        {
+            Console.WriteLine("File: " + value);
+        }
     }
 
     class Folder : Component
@@ -64,14 +62,14 @@ namespace Composite{
 
     public static void Main()
     {
-        Folder folder1 = new Folder("Folder 1 Infromation");
-        Folder folder2 = new Folder("Folder 2 Infromation");
-        File file1 = new File("File 1 Infromation");
-        File file2 = new File("File 2 Infromation");
+        Folder folder1 = new Folder("Folder 1 Information");
+        Folder folder2 = new Folder("Folder 2 Information");
+        File file1 = new File("File 1 Information");
+        File file2 = new File("File 2 Information");
 
         folder2.AddChild(file1);
         folder2.AddChild(file2);
-        File file3 = new File("File 3 Infromation");
+        File file3 = new File("File 3 Information");
         folder1.AddChild(folder2);
         folder1.AddChild(file3);
         folder1.Traverse();

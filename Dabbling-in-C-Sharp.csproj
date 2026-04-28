@@ -6,6 +6,7 @@
     <RootNamespace>Dabbling_in_C_Sharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Composite.Example</StartupObject>
   </PropertyGroup>
 
 </Project>

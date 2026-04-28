@@ -7,9 +7,9 @@ namespace Bridge
 
         public abstract class Message
         {
-            public ISender Sender { get; set; }
-            public string Subject { get; set; }
-            public String Body { get; set; }
+            public ISender? Sender { get; set; }
+            public string? Subject { get; set; }
+            public string? Body { get; set; }
             public abstract void Send();
         }
 
@@ -17,19 +17,25 @@ namespace Bridge
         {
             public override void Send()
             {
-                Sender.SendMessage(Subject, Body);
+                if (Sender != null && Subject != null && Body != null)
+                {
+                    Sender.SendMessage(Subject, Body);
+                }
             }
         }
 
         public class UserMessage: Message
         {
 
-        public string UserComments { get; set; }
+        public string? UserComments { get; set; }
 
         public override void Send()
         {
-            string fullbody = string.Format("{0}- User Comments: {1}", Body, UserComments);
-            Sender.SendMessage(Subject, fullbody);
+            if (Sender != null && Subject != null && Body != null && UserComments != null)
+            {
+                string fullbody = string.Format("{0}- User Comments: {1}", Body, UserComments);
+                Sender.SendMessage(Subject, fullbody);
+            }
         }
         }
 
@@ -62,7 +68,7 @@ namespace Bridge
             }
         }
 
-        static vod Main(string[] args)
+        static void Main(string[] args)
         {
             ISender facebookSender = new FacebookSender();
             ISender twitterSender = new TwitterSender();
