@@ -39,7 +39,11 @@ Creational - used to create objects
 - Bridge :white_check_mark:
 - Composite :white_check_mark:
 - Decorator :white_check_mark:
+<<<<<<< HEAD
 - Facade :white_check_mark:
+=======
+- Facade
+>>>>>>> b115ace64937b93f23b33d0509bd9b8c97ce815c
 - Flyweight
 - Proxy
 
