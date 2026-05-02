@@ -38,8 +38,8 @@ Creational - used to create objects
 - Adapter :white_check_mark:
 - Bridge :white_check_mark:
 - Composite :white_check_mark:
-- Decorator
-- Facade
+- Decorator :white_check_mark:
+- Facade :white_check_mark:
 - Flyweight
 - Proxy
 
