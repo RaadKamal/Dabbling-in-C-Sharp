@@ -40,7 +40,7 @@ Creational - used to create objects
 - Composite :white_check_mark:
 - Decorator :white_check_mark:
 - Facade :white_check_mark:
-- Flyweight
+- Flyweight :white_check_mark:
 - Proxy
 
 ## Behavioural design pattern:
