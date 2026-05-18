@@ -18,7 +18,7 @@ namespace Flyweight
 
         }
 
-        class RED   : IColor
+        class Red   : IColor
         {
             public void Print()
             {
@@ -26,7 +26,7 @@ namespace Flyweight
             }
         }
 
-        class GREEN : IColor
+        class Green : IColor
         {
             public void Print()
             {
@@ -34,7 +34,7 @@ namespace Flyweight
             }
         }
 
-        class BLUE  : IColor
+        class Blue  : IColor
         {
             public void Print()
             {
@@ -66,15 +66,15 @@ namespace Flyweight
                 switch (colorName)
                 {
                     case RED:
-                        color = new RED();
+                        color = new Red();
                         colors.Add(RED, color);
                         break;
                     case GREEN:
-                        color = new GREEN();
+                        color = new Green();
                         colors.Add(GREEN, color);       
                         break;
                     case BLUE:
-                        color = new BLUE();
+                        color = new Blue();
                         colors.Add(BLUE, color);
                         break;
 
@@ -83,12 +83,31 @@ namespace Flyweight
                 }
 
               
+         
+         
             }
+
+            return color;
+
+        }
         }
 
-        public static void Main()
+        public static void Main(string[] args)
         {
-            
+            ColorObjectFactory colorfactory = new ColorObjectFactory(); 
+            IColor color1 = colorfactory.GetColor(RED);
+            color1.Print();
+            IColor color2 = colorfactory.GetColor(GREEN);           
+            color2.Print();
+            IColor color3 = colorfactory.GetColor(BLUE);     
+            color3.Print();
+            IColor color4 = colorfactory.GetColor(RED);
+            color4.Print();
+
+            int numberOfObjectsCreated = colorfactory.TotalObjectsCreated;
+            Debug.Assert(numberOfObjectsCreated == 3, "Number of objects created should be 3");
+
+
         }
 
     }
