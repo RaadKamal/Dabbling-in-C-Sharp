@@ -33,17 +33,18 @@ Creational - used to create objects
 
 2. Allow us to compose objects in different ways to create new functionality.
 
-### Now Enduring: 
-
 - Adapter :white_check_mark:
 - Bridge :white_check_mark:
 - Composite :white_check_mark:
 - Decorator :white_check_mark:
 - Facade :white_check_mark:
 - Flyweight :white_check_mark:
-- Proxy
+- Proxy :white_check_mark:
 
 ## Behavioural design pattern:
+
+
+### Now Enduring:
 
 - Chain of Responsibility
 - Command
