@@ -46,6 +46,8 @@ Creational - used to create objects
 
 ### Now Enduring:
 
+1. Focus on assigning responsibilities and how Objects are interconnected.
+
 - Chain of Responsibility
 - Command
 - Interpreter
